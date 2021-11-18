@@ -1,0 +1,56 @@
+body{
+  background-image: url("https://www.mural-wallpaper.com/wp-content/uploads/2020/11/S-SFU40.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: Cambria, Cochin, serif;
+}
+
+/* this is a CSS comment*/
+
+/*
+h1, a, p *{
+  color: white;
+}
+*/
+
+main{
+  width: 75%;
+}
+
+a:hover{
+  background-color: lightblue;
+ color: orange;
+}
+
+a:active{
+  background-color: green;
+  color: yellow;
+}
+
+h1:first-letter {
+  font-size: 2em; 
+}
+
+/* a:last-child {
+  color-pnk;
+} */
+
+a:hover {
+  background-color: lightblue;
+  color: orange
+}
+
+nav a:active {
+  background-color: lighblue;
+  color: orange 
+}
+
+nav a:active {
+  background-color: green;
+  color: yellow
+}
+
+ol{
+  list-style-position: inside;
+}
